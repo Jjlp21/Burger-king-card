@@ -1,0 +1,114 @@
+.main{
+    display:flex;
+    justify-content: center;
+
+}
+
+     section
+    {display:flex;
+        margin:auto;
+        box-shadow: 0 30px 80px 10px black;
+        position: relative;
+        top: 250px;
+        transition: 1s;
+    }
+
+    #one{width: 400px;
+    }
+
+    #two{width: 300px;
+        background: rgb(239,235,239);
+        background: linear-gradient(90deg, rgba(239,235,239,1) 38%, rgba(235,239,238,1) 99%, rgba(255,255,255,1) 100%);}
+
+#three{background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(226, 226, 226) 0%, rgba(153,130,156,1) 100%);    
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    font-size: 50px;
+    color:rgb(61, 22, 97);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#row1{display:flex;
+padding: 10px;
+}
+
+#row2{text-align: start;}
+
+#row3{display:flex;
+margin: auto;}
+
+img{height: 100%;
+width:100%}
+
+#veg{
+    color:white;
+    background-color:green;
+    margin: auto;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    padding: 2px;
+    position:relative;
+    left:20px;
+}
+
+#non{color:white;
+    background-color: rgba(255, 0, 0, 0.699);
+    margin: auto;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    padding: 2px;
+    transition: transform 1s linear;
+}
+
+h3{margin: 2px;
+font-size: 20px;
+position: relative;
+top: 10px;}
+
+h1{color:crimson;
+    position:relative;
+bottom: 20px;
+left: 10px;
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+transition: 1s;
+}
+
+.footer{margin:auto}
+
+h2{margin-top: 90%;
+}
+
+#dollar{ transition: 1s ease-in-out ;
+          transition-duration: 3s;
+}
+
+#non:hover{  background-color: rgb(134, 0, 0);
+}
+    #veg:hover{  background-color:rgb(5, 65, 5);}
+
+
+.footer{
+    transition:transform 1s
+}
+        .footer:hover{transform: translateY(-70%);}
+
+        section:hover{
+            transform: translateY(-25%);
+
+        }
+
+        #dollar:hover{
+
+            transform: perspective(600px) rotateY(3600deg) translateY(-50%);
+        }
+
+        section:hover #dollar{ perspective: (10px) rotateY(360deg);}
+
+        h1:hover{transform: translateX(15%) translateY(5%);}
